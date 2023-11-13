@@ -40,28 +40,91 @@ body {
 
 .component {
   display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 15px;
   height: 600px;
-  width: 1000px;
+  width: 800px;
 
   .left,
   .right {
     display: flex;
     flex: 1;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
   }
 }
 
 .container {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
 
+/* LEFT */
 .left {
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
   border-radius: 15px;
 }
+
+h1 {
+  color: var(--light-lavander);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.message .head {
+  text-align: center;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.message .phrase {
+  text-align: center;
+  color: var(--light-lavander);
+}
+/* /LEFT */
+
+/* RIGHT */
+.right .title {
+  color: var(--dark-gray-blue);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: var(--green-teal);
+  border-radius: 10px;
+}
+
+.skill:last-child {
+  margin-bottom: 0px;
+}
+
+.skill-name {
+  margin-left: 20px;
+}
+
+.skill-score {
+  margin-right: 20px;
+}
+
+button {
+  width: 100%;
+  background-color: var(--dark-gray-blue);
+  color: var(--white);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  border: 0;
+}
+/* /RIGHT */
