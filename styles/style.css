@@ -46,23 +46,22 @@ body {
   border-radius: 15px;
   height: 600px;
   width: 1000px;
+
+  .left,
+  .right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+}
+
+.container {
+  padding: 50px;
 }
 
 .left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
-  height: 100%;
   border-radius: 15px;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
 }
