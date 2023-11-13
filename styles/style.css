@@ -42,5 +42,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  height: 600px;
+  width: 1000px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+  height: 100%;
+  border-radius: 15px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
