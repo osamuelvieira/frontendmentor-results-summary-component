@@ -193,12 +193,10 @@ button {
   padding-bottom: 12px;
   border-radius: 50px;
   border: 0;
-  transition: background 0.3s ease;
 }
 
 button:hover {
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
-  transition: background 0.3s ease;
 }
 /* /RIGHT */
 
