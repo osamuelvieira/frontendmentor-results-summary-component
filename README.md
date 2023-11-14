@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-iDnlXeVDBS](https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-iDnlXeVDBS)
 - Live Site URL: [https://osamuelvieira-frontendmentor-results-summary-component-ivory.vercel.app/](https://osamuelvieira-frontendmentor-results-summary-component-ivory.vercel.app/)
 
 ## My process
