@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
 :root {
   /*Primary*/
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
   --green-teal: hsl(166, 100%, 37%);
   --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* skills bg */
+  --skill-bg-red: #fff6f5;
+  --skill-bg-yellow: #fffbf2;
+  --skill-bg-green: #f2fafa;
+  --skill-bg-blue: #f3f3fd;
 
   /*Gradient blue*/
   --light-slate-blue: hsl(252, 100%, 67%);
@@ -18,9 +26,8 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavander: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
+  --light-gray: hsl(208, 8%, 60%);
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
 
 * {
   margin: 0;
@@ -40,18 +47,18 @@ body {
 
 .component {
   display: flex;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border-radius: 15px;
   height: 600px;
   width: 800px;
-
-  .left,
-  .right {
-    display: flex;
-    flex: 1;
-  }
+  margin-bottom: 30px;
 }
 
+.left,
+.right {
+  display: flex;
+  flex: 1;
+}
 .container {
   padding: 50px;
   display: flex;
@@ -64,6 +71,10 @@ body {
 .left {
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
   border-radius: 15px;
+}
+
+.left .container {
+  align-items: center;
 }
 
 h1 {
@@ -84,6 +95,27 @@ h1 {
 .message .phrase {
   text-align: center;
   color: var(--light-lavander);
+}
+
+.score {
+  background: linear-gradient(var(--violet-blue), var(--persian-blue));
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score .big {
+  color: var(--white);
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.score .small {
+  color: var(--light-gray);
 }
 /* /LEFT */
 
@@ -110,12 +142,47 @@ h1 {
   margin-bottom: 0px;
 }
 
+.skill-1 {
+  background: var(--skill-bg-red);
+  color: var(--light-red);
+}
+
+.skill-2 {
+  background: var(--skill-bg-yellow);
+  color: var(--orangey-yellow);
+}
+
+.skill-3 {
+  background: var(--skill-bg-green);
+  color: var(--green-teal);
+}
+
+.skill-4 {
+  background: var(--skill-bg-blue);
+  color: var(--cobalt-blue);
+}
+
 .skill-name {
   margin-left: 20px;
+  font-weight: 700;
+}
+
+.skill-name i {
+  margin-right: 20px;
 }
 
 .skill-score {
   margin-right: 20px;
+}
+
+.skill-score-first {
+  font-weight: 700;
+  color: var(--dark-gray-blue);
+}
+
+.skill-score-last {
+  color: var(--light-gray);
+  font-weight: 700;
 }
 
 button {
