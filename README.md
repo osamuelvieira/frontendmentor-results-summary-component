@@ -21,12 +21,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+**Desktop**
+![](./assets/solution-screenshots/desktop.png)
+
+**Mobile**
+![](./assets/solution-screenshots/mobile.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://osamuelvieira-frontendmentor-results-summary-component-ivory.vercel.app/](https://osamuelvieira-frontendmentor-results-summary-component-ivory.vercel.app/)
 
 ## My process
 
@@ -35,10 +39,3 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
